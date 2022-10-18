@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 # Setting parameters for raylib
 set(BUILD_EXAMPLES OFF CACHE BOOL "" FORCE) # don't build the supplied examples
 set(BUILD_GAMES    OFF CACHE BOOL "" FORCE) # or games
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(libs/raylib)
 
